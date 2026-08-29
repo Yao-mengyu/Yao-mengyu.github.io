@@ -37,7 +37,6 @@ redirect_from:
     <h3><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-dots" target="_blank" rel="noopener noreferrer">Connect the Dots: Knowledge Graph-Guided Crawler Attack on Retrieval-Augmented Generation Systems</a></h3>
     <p class="publication__authors"><strong>Mengyu Yao</strong>, Ziqi Zhang, Ning Luo, Shaofei Li, Yifeng Cai, Xiangqun Chen, Yao Guo, and Ding Li.</p>
     <p class="publication__venue"><em>35th USENIX Security Symposium, 2026</em> <span class="publication__note">(Long Presentation)</span></p>
-    <p class="publication__links">[<a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-dots" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
@@ -49,7 +48,6 @@ redirect_from:
     <h3><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-zero" target="_blank" rel="noopener noreferrer">From Zero to Hero: Cross-modal-enhanced Adversarial Item Promotion Attack against Multimodal Recommender Systems</a></h3>
     <p class="publication__authors"><strong>Mengyu Yao</strong>, Ziqi Zhang, Yifeng Cai, Junlin Liu, Xinyi Fu, Weiqiang Wang, Xiangqun Chen, Yao Guo, and Ding Li.</p>
     <p class="publication__venue"><em>35th USENIX Security Symposium, 2026</em> <span class="publication__note">(Long Presentation)</span></p>
-    <p class="publication__links">[<a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-zero" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
@@ -61,7 +59,6 @@ redirect_from:
     <h3><a href="https://doi.org/10.1145/3820771" target="_blank" rel="noopener noreferrer">PredComp: Predicting Compiler Optimization Options with Multi-stage Learning</a></h3>
     <p class="publication__authors">Bingyu Gao, Ziming Wang, <strong>Mengyu Yao</strong>, Zhihong Xue, Xiangqun Chen, Ding Li, and Yao Guo.</p>
     <p class="publication__venue"><em>ACM Transactions on Architecture and Code Optimization (TACO), 2026</em></p>
-    <p class="publication__links">[<a href="https://doi.org/10.1145/3820771" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
@@ -73,7 +70,6 @@ redirect_from:
     <h3><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/cai-yifeng" target="_blank" rel="noopener noreferrer">I Can Tell Your Secrets: Inferring Privacy Attributes from Mini-app Interaction History in Super-apps</a></h3>
     <p class="publication__authors">Yifeng Cai, Ziqi Zhang, <strong>Mengyu Yao</strong>, Junlin Liu, Xiaoke Zhao, Xinyi Fu, Ruoyu Li, Zhe Li, Xiangqun Chen, Yao Guo, and Ding Li.</p>
     <p class="publication__venue"><em>34th USENIX Security Symposium, 2025</em></p>
-    <p class="publication__links">[<a href="https://www.usenix.org/conference/usenixsecurity25/presentation/cai-yifeng" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
@@ -85,7 +81,6 @@ redirect_from:
     <h3><a href="https://doi.org/10.1145/3735452.3735530" target="_blank" rel="noopener noreferrer">GroupTuner: Efficient Group-Aware Compiler Auto-tuning</a></h3>
     <p class="publication__authors">Bingyu Gao, <strong>Mengyu Yao</strong>, Ziming Wang, Dong Liu, Ding Li, Xiangqun Chen, and Yao Guo.</p>
     <p class="publication__venue"><em>ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES), 2025</em></p>
-    <p class="publication__links">[<a href="https://doi.org/10.1145/3735452.3735530" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
@@ -97,7 +92,6 @@ redirect_from:
     <h3><a href="https://doi.org/10.1145/3721126" target="_blank" rel="noopener noreferrer">Not All Exceptions Are Created Equal: Triaging Error Logs in Real-World Enterprises</a></h3>
     <p class="publication__authors">Junlin Liu, <strong>Mengyu Yao</strong>, Shaofei Li, Dingyu Yang, Zheshun Wu, Xiaojun Qu, Ziqi Zhang, Ding Li, Yao Guo, and Xiangqun Chen.</p>
     <p class="publication__venue"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2025</em></p>
-    <p class="publication__links">[<a href="https://doi.org/10.1145/3721126" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
@@ -109,7 +103,6 @@ redirect_from:
     <h3><a href="https://doi.org/10.1145/3707453" target="_blank" rel="noopener noreferrer">TEESlice: Protecting Sensitive Neural Network Models in Trusted Execution Environments when Attackers Have Pre-Trained Models</a></h3>
     <p class="publication__authors">Ding Li, Ziqi Zhang, <strong>Mengyu Yao</strong>, Yifeng Cai, Yao Guo, and Xiangqun Chen.</p>
     <p class="publication__venue"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2025</em></p>
-    <p class="publication__links">[<a href="https://doi.org/10.1145/3707453" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
@@ -121,7 +114,6 @@ redirect_from:
     <h3><a href="https://arxiv.org/abs/2510.26212" target="_blank" rel="noopener noreferrer">Who Grants the Agent Power? Defending Against Instruction Injection via Task-Centric Access Control</a></h3>
     <p class="publication__authors">Yifeng Cai, Ziming Wang, Zhaomeng Deng, <strong>Mengyu Yao</strong>, Junlin Liu, Yutao Hu, Ziqi Zhang, Yao Guo, and Ding Li.</p>
     <p class="publication__venue"><em>SaTS 2025 (Co-located with ACM CCS 2025)</em></p>
-    <p class="publication__links">[<a href="https://arxiv.org/abs/2510.26212" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
@@ -133,7 +125,6 @@ redirect_from:
     <h3><a href="https://arxiv.org/abs/2510.26210" target="_blank" rel="noopener noreferrer">Who Moved My Transaction? Uncovering Post-Transaction Auditability Vulnerabilities in Modern Super Apps</a></h3>
     <p class="publication__authors">Junlin Liu, Zhaomeng Deng, Ziming Wang, <strong>Mengyu Yao</strong>, Yifeng Cai, Yutao Hu, Ziqi Zhang, Yao Guo, and Ding Li.</p>
     <p class="publication__venue"><em>SaTS 2025 (Co-located with ACM CCS 2025)</em></p>
-    <p class="publication__links">[<a href="https://arxiv.org/abs/2510.26210" target="_blank" rel="noopener noreferrer">paper</a>]</p>
   </div>
 </article>
 
