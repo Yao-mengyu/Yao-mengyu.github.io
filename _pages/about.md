@@ -160,7 +160,7 @@ redirect_from:
 <div class="cv-entry">
   <div class="cv-entry__heading">
     <div><strong>Teaching Assistant</strong><span>Problem Solving · Nanjing University</span></div>
-    <span class="cv-entry__date">Fall 2021 – Fall 2023</span>
+    <span class="cv-entry__date">Fall 2021 – Spring 2023</span>
   </div>
 </div>
 
