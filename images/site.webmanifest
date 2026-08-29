@@ -3,7 +3,7 @@
   "short_name": "Mengyu Yao",
   "icons": [
     {
-      "src": "favicon.svg",
+      "src": "favicon.svg?v=2",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
