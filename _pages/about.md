@@ -12,7 +12,7 @@ redirect_from:
 <section class="academic-intro" id="about-me" aria-labelledby="profile-name">
   <div class="academic-intro__copy">
     <h1 id="profile-name">Mengyu Yao</h1>
-    <p>I am a Ph.D. student in Computer Science at <strong>Peking University</strong>, advised by Prof. Yao Guo, and expect to graduate in 2028.</p>
+    <p>I am a Ph.D. student in Computer Science at <strong>Peking University</strong>, advised by Prof. Yao Guo, and expect to graduate in 2028. I am currently with the <a href="https://cs.pku.edu.cn/info/1166/1849.htm" target="_blank" rel="noopener noreferrer"><strong>Key Laboratory of High Confidence Software Technologies, Ministry of Education</strong></a>.</p>
     <p>Before joining PKU, I received my B.S. in Computer Science and Technology from <strong>Nanjing University</strong> in 2023.</p>
     <nav class="academic-intro__links" aria-label="Contact and academic profiles">
       <a href="mailto:{{ site.author.email }}">Email</a><span aria-hidden="true">|</span>
@@ -146,6 +146,24 @@ redirect_from:
   </div>
   <p class="cv-entry__role">Research Intern</p>
   <p>Worked on model-cluster load optimization and the security of multimodal recommender systems. The latter resulted in the first-author paper <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-zero" target="_blank" rel="noopener noreferrer"><em>From Zero to Hero: Cross-modal-enhanced Adversarial Item Promotion Attack against Multimodal Recommender Systems</em></a> at USENIX Security 2026 (Long Presentation).</p>
+</div>
+
+<h2 class="section-heading" id="teaching-experience"><i class="fas fa-chalkboard-teacher section-heading__icon" aria-hidden="true"></i><span>Teaching Experience</span></h2>
+
+<div class="cv-entry">
+  <div class="cv-entry__heading">
+    <div><strong>Peking University</strong><span>Introduction to Computing</span></div>
+    <span class="cv-entry__date">Fall 2024</span>
+  </div>
+  <p class="cv-entry__role">Teaching Assistant</p>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry__heading">
+    <div><strong>Nanjing University</strong><span>Problem Solving</span></div>
+    <span class="cv-entry__date">Fall 2021 – Fall 2023</span>
+  </div>
+  <p class="cv-entry__role">Teaching Assistant</p>
 </div>
 
 <h2 class="section-heading" id="education"><i class="fas fa-graduation-cap section-heading__icon" aria-hidden="true"></i><span>Education</span></h2>
