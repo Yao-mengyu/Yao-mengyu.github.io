@@ -152,18 +152,16 @@ redirect_from:
 
 <div class="cv-entry">
   <div class="cv-entry__heading">
-    <div><strong>Peking University</strong><span>Introduction to Computing</span></div>
+    <div><strong>Teaching Assistant</strong><span>Introduction to Computing · Peking University</span></div>
     <span class="cv-entry__date">Fall 2024</span>
   </div>
-  <p class="cv-entry__role">Teaching Assistant</p>
 </div>
 
 <div class="cv-entry">
   <div class="cv-entry__heading">
-    <div><strong>Nanjing University</strong><span>Problem Solving</span></div>
+    <div><strong>Teaching Assistant</strong><span>Problem Solving · Nanjing University</span></div>
     <span class="cv-entry__date">Fall 2021 – Fall 2023</span>
   </div>
-  <p class="cv-entry__role">Teaching Assistant</p>
 </div>
 
 <h2 class="section-heading" id="education"><i class="fas fa-graduation-cap section-heading__icon" aria-hidden="true"></i><span>Education</span></h2>
