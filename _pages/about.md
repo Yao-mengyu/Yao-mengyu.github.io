@@ -132,6 +132,15 @@ redirect_from:
 
 <div class="cv-entry">
   <div class="cv-entry__heading">
+    <div><strong>Huawei Technologies</strong><span>2012 Laboratories</span></div>
+    <span class="cv-entry__date">Aug 2025 – Jul 2026</span>
+  </div>
+  <p class="cv-entry__role">Research Intern</p>
+  <p>Conducted research on the security and privacy of AI agents.</p>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry__heading">
     <div><strong>Ant Group</strong><span>Security &amp; Machine Intelligence</span></div>
     <span class="cv-entry__date">Aug 2024 – Jan 2025</span>
   </div>
