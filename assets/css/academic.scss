@@ -54,41 +54,54 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, .96);
+  background: rgba(255, 255, 255, .98);
   border-bottom: 1px solid var(--academic-rule);
-  box-shadow: 0 1px 4px rgba(32, 37, 42, .04);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 .academic-home .academic-nav__inner {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1.45rem;
-  max-width: 820px;
+  gap: 2rem;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: .72rem 20px .65rem;
-  overflow-x: auto;
-  scrollbar-width: none;
+  padding: .82rem 24px .76rem;
 }
 
-.academic-home .academic-nav__inner::-webkit-scrollbar {
-  display: none;
-}
-
-.academic-home .academic-nav__inner a {
+.academic-home .academic-nav__brand {
   flex: 0 0 auto;
-  padding-bottom: .07rem;
-  color: #30383f;
-  border-bottom: 1px solid transparent;
-  font-size: .9rem;
-  font-weight: 600;
+  margin-right: auto;
+  color: #252c31;
+  font-size: .96rem;
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+
+.academic-home .academic-nav__links {
+  display: flex;
+  align-items: center;
+  gap: 1.55rem;
+}
+
+.academic-home .academic-nav__links a,
+.academic-home .academic-nav__menu-links a {
+  color: #66717a;
+  font-size: .86rem;
+  font-weight: 500;
   line-height: 1.3;
 }
 
-.academic-home .academic-nav__inner a:hover,
-.academic-home .academic-nav__inner a:focus-visible {
-  color: var(--academic-link-hover);
-  border-bottom-color: currentColor;
+.academic-home .academic-nav__brand:hover,
+.academic-home .academic-nav__brand:focus-visible,
+.academic-home .academic-nav__links a:hover,
+.academic-home .academic-nav__links a:focus-visible,
+.academic-home .academic-nav__menu-links a:hover,
+.academic-home .academic-nav__menu-links a:focus-visible {
+  color: var(--academic-link);
+}
+
+.academic-home .academic-nav__menu {
+  display: none;
 }
 
 .academic-home #main.academic-shell {
@@ -97,6 +110,7 @@
   max-width: 820px;
   margin: 50px auto 60px;
   padding: 0 20px;
+  animation: none;
 }
 
 .academic-home .academic-page,
@@ -385,10 +399,58 @@
 
 @media (max-width: 640px) {
   .academic-home .academic-nav__inner {
-    justify-content: flex-start;
-    gap: 1.1rem;
+    gap: 1rem;
+    padding-top: .7rem;
     padding-right: 18px;
+    padding-bottom: .66rem;
     padding-left: 18px;
+  }
+
+  .academic-home .academic-nav__links {
+    display: none;
+  }
+
+  .academic-home .academic-nav__menu {
+    position: relative;
+    display: block;
+    margin-left: auto;
+  }
+
+  .academic-home .academic-nav__menu summary {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    color: #66717a;
+    font-size: .84rem;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .academic-home .academic-nav__menu summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .academic-home .academic-nav__menu-links {
+    position: absolute;
+    top: calc(100% + .75rem);
+    right: 0;
+    width: 178px;
+    padding: .38rem 0;
+    background: #fff;
+    border: 1px solid var(--academic-rule);
+    border-radius: 3px;
+    box-shadow: 0 8px 22px rgba(32, 37, 42, .12);
+  }
+
+  .academic-home .academic-nav__menu-links a {
+    display: block;
+    padding: .52rem .8rem;
+  }
+
+  .academic-home .academic-nav__menu-links a:hover,
+  .academic-home .academic-nav__menu-links a:focus-visible {
+    background: #f6f8f9;
   }
 
   .academic-home #main.academic-shell {

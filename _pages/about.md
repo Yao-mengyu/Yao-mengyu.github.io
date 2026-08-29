@@ -12,7 +12,7 @@ redirect_from:
 <section class="academic-intro" id="about-me" aria-labelledby="profile-name">
   <div class="academic-intro__copy">
     <h1 id="profile-name">Mengyu Yao</h1>
-    <p>I am a Ph.D. student in Computer Science at <strong>Peking University</strong>, advised by Prof. Yao Guo, and expect to graduate in 2028. I am currently with the <a href="https://cs.pku.edu.cn/info/1166/1849.htm" target="_blank" rel="noopener noreferrer"><strong>Key Laboratory of High Confidence Software Technologies, Ministry of Education</strong></a>.</p>
+    <p>I am a Ph.D. student in Computer Science at <strong>Peking University</strong>, advised by Prof. Yao Guo. I am a member of the <a href="https://cs.pku.edu.cn/info/1166/1849.htm" target="_blank" rel="noopener noreferrer"><strong>Key Laboratory of High Confidence Software Technologies, Ministry of Education</strong></a> and expect to graduate in 2028.</p>
     <p>Before joining PKU, I received my B.S. in Computer Science and Technology from <strong>Nanjing University</strong> in 2023.</p>
     <nav class="academic-intro__links" aria-label="Contact and academic profiles">
       <a href="mailto:{{ site.author.email }}">Email</a><span aria-hidden="true">|</span>

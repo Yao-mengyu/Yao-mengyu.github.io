@@ -12,6 +12,9 @@
 - Canonical-paper-figure evidence: `/tmp/academic-paper-figs-headings.png` and `/tmp/academic-paper-figs-mobile.png`.
 - Canonical-figure combined comparison: `/tmp/paper-figs-comparison.png`.
 - Corrected-heading and first-page-preview evidence: `/tmp/academic-research-title-transaction-preview.png`, `/tmp/academic-transaction-preview-mobile.png`, and `/tmp/final-paper-preview-comparison.png`.
+- Navigation-reference evidence: `/tmp/acad-home-nav.png`, captured from `https://rayeren.github.io/acad-homepage.github.io/`.
+- Revised navigation evidence: `/tmp/revised-home-nav.png` and `/tmp/revised-home-nav-mobile.png`.
+- Navigation comparison evidence: `/tmp/nav-comparison.png`.
 - State: default homepage, light theme, no hover or focused control.
 
 ## Normalization
@@ -65,6 +68,10 @@
    - Fix: narrowed the selector to `.research-heading__scholar`, restoring the module title to the standard h2 size.
    - Final paper treatment: replaced the awkward empty media column with a bordered first-page preview generated from the paper's authentic public PDF.
    - Result: passed in the normalized desktop comparison and the 500 px responsive capture.
+8. The first section navigation used a centered, bold row of links with root-relative fragment URLs.
+   - Finding: P1 — it read like a generic directory bar and same-section repeat clicks did not reliably retrigger scrolling.
+   - Fix: matched the reference's restrained academic navigation language with a left-aligned name, right-aligned sans-serif links, a thin rule, and a compact native mobile menu. Fragment-only URLs and an explicit click handler now retrigger `scrollIntoView` on every click.
+   - Result: passed in the normalized desktop comparison, the 500 px responsive capture, and a two-click Microsoft Edge interaction test.
 
 ## Interaction and implementation checks
 
@@ -72,6 +79,8 @@
 - External links use `target="_blank"` with `rel="noopener noreferrer"`.
 - Every publication image has meaningful alternative text and fixed intrinsic dimensions.
 - The current rendered page references `/images/profile-2.png`; all four section-heading icons resolve through the bundled Font Awesome set.
+- Desktop navigation exposes all six section links; the mobile layout replaces horizontal overflow with a native disclosure menu.
+- An automated Microsoft Edge interaction check clicked the Research link twice and observed two calls to the page's scroll handler with the correct `#research` URL state.
 - Jekyll production build completed successfully.
 - Rendered HTML contains no News, Lab Homepage, Services, Friends, Main Collaborators, Code, PDF, Research Experience, Publications, or year-group headings.
 
