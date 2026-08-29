@@ -12,6 +12,14 @@
   <body class="academic-home">
     <a class="skip-link" href="#main-content">Skip to main content</a>
 
+    <header class="academic-nav">
+      <nav class="academic-nav__inner" aria-label="Homepage sections">
+        {% for link in site.data.navigation.main %}
+          <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+
     <main id="main" class="academic-shell">
       <article class="academic-page" itemscope itemtype="https://schema.org/ProfilePage">
         <section id="main-content" class="page__content" itemprop="mainEntity" tabindex="-1">
