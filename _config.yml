@@ -1,0 +1,108 @@
+# Site settings
+title                    : "Mengyu Yao"
+description              : "Ph.D. student at Peking University working on security and privacy in AI systems."
+url                      : "https://yao-mengyu.github.io"
+baseurl                  : ""
+repository               : "Yao-mengyu/Yao-mengyu.github.io"
+lang                     : "en"
+
+# Optional services (left blank until configured)
+google_analytics_id      :
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
+
+# Site author
+author:
+  name          : "Mengyu Yao"
+  avatar        : "images/profile-2.png"
+  bio           : "Ph.D. Student in Computer Science"
+  location      : "Beijing, China"
+  employer      : "Peking University"
+  googlescholar : "https://scholar.google.com/citations?user=T6OjAX4AAAAJ"
+  email         : "mengyuyao@stu.pku.edu.cn"
+  github        : "Yao-mengyu"
+
+# Reading files
+include:
+  - _pages
+exclude:
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - cv.tex
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - google_scholar_crawler
+  - LICENSE
+  - README.md
+  - design-qa.md
+  - run_server.sh
+  - assets/css/collapse.css
+  - assets/css/style.scss
+  - assets/js/_main.js
+  - assets/js/collapse.js
+  - assets/js/main.min.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - images/500x300.png
+  - images/android-chrome-192x192.png
+  - images/android-chrome-512x512.png
+  - images/apple-touch-icon.png
+  - images/favicon-16x16.png
+  - images/favicon-32x32.png
+  - images/favicon.ico
+  - images/profile.png
+  - node_modules
+  - tmp
+  - vendor
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

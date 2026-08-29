@@ -1,0 +1,24 @@
+<link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+<link rel="manifest" href="{{ '/images/site.webmanifest' | relative_url }}">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "image": {{ '/images/profile.jpg' | absolute_url | jsonify }},
+  "email": {{ site.author.email | prepend: 'mailto:' | jsonify }},
+  "jobTitle": "Ph.D. Student in Computer Science",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Peking University"
+  },
+  "sameAs": [
+    {{ site.author.googlescholar | jsonify }},
+    "https://github.com/{{ site.author.github }}"
+  ]
+}
+</script>

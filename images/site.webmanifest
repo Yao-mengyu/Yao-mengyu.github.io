@@ -1,0 +1,16 @@
+{
+  "name": "Mengyu Yao — Academic Homepage",
+  "short_name": "Mengyu Yao",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "start_url": "/"
+}

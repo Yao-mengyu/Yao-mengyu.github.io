@@ -1,0 +1,32 @@
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+<div itemscope itemtype="https://schema.org/Person" class="profile_box">
+  <div class="author__avatar">
+    <img src="{{ author.avatar | relative_url }}" width="857" height="1200" alt="Portrait of {{ author.name }}" itemprop="image">
+  </div>
+
+  <div class="author__content">
+    <h1 class="author__name" itemprop="name">{{ author.name }}</h1>
+    {% if author.bio %}<p class="author__bio" itemprop="jobTitle">{{ author.bio }}</p>{% endif %}
+  </div>
+
+  <div class="author__urls-wrapper">
+    <ul class="author__urls social-icons" aria-label="Profile details and links">
+      {% if author.location %}<li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i><span>{{ author.location }}</span></li>{% endif %}
+      {% if author.employer %}<li><i class="fas fa-fw fa-university" aria-hidden="true"></i><span>{{ author.employer }}</span></li>{% endif %}
+      {% if author.email %}<li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span>Email</span></a></li>{% endif %}
+      {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li>{% endif %}
+      {% if author.github %}<li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span>GitHub</span></a></li>{% endif %}
+    </ul>
+
+    <div class="author__urls_sm" aria-label="Contact and academic profiles">
+      {% if author.email %}<a href="mailto:{{ author.email }}" aria-label="Email {{ author.name }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>{% endif %}
+      {% if author.googlescholar %}<a href="{{ author.googlescholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a>{% endif %}
+      {% if author.github %}<a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>{% endif %}
+    </div>
+  </div>
+</div>

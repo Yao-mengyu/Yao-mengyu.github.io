@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Mengyu Yao monogram</title>
+  <desc id="desc">A restrained navy and grey monogram placeholder for a future portrait.</desc>
+  <rect width="512" height="512" fill="#e8eef2"/>
+  <circle cx="256" cy="256" r="184" fill="#f8fafb" stroke="#cbd6de" stroke-width="4"/>
+  <path d="M154 330V182h31l71 93 71-93h31v148h-34v-94l-68 87-68-87v94z" fill="#183f5b"/>
+  <path d="M174 358h164" fill="none" stroke="#9caebb" stroke-width="4"/>
+</svg>

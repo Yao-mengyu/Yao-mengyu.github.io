@@ -1,0 +1,13 @@
+main:
+  - title: "About"
+    url: "/#about-me"
+  - title: "Research"
+    url: "/#research-interests"
+  - title: "Publications"
+    url: "/#publications"
+  - title: "Internships"
+    url: "/#internship-experience"
+  - title: "Education"
+    url: "/#education"
+  - title: "Honors"
+    url: "/#honors-and-awards"

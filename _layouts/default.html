@@ -1,0 +1,29 @@
+---
+---
+
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    {% include masthead.html %}
+
+    <main id="main">
+      {% include sidebar.html %}
+
+      <article class="page" itemscope itemtype="https://schema.org/ProfilePage">
+        <div class="page__inner-wrap">
+          <section id="main-content" class="page__content" itemprop="mainEntity" tabindex="-1">
+            {{ content }}
+          </section>
+        </div>
+      </article>
+    </main>
+
+    {% include scripts.html %}
+  </body>
+</html>
