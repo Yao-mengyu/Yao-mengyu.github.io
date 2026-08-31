@@ -16,8 +16,10 @@
 - Revised navigation evidence: `/tmp/revised-home-nav.png` and `/tmp/revised-home-nav-mobile.png`.
 - Navigation comparison evidence: `/tmp/nav-comparison.png`.
 - Scholar Spark visual target: `/Users/ymy/.codex/generated_images/01a047fc-a6c3-7ce2-8ade-cb5d3ddd3345/exec-a17f0434-406f-471c-b33b-24dcbe826a9a.png`, informed by the portrait, heading, and publication component targets generated in the same session.
+- Latest scoped target: preserve the selected Scholar Spark visual but follow the user's explicit correction that stars appear only as a click burst, never as a persistent pointer follower.
 - Scholar Spark rendered evidence: `/tmp/scholar-spark-portrait-hover.png`, `/tmp/scholar-spark-heading-hover.png`, `/tmp/scholar-spark-paper-click.png`, and `/tmp/scholar-spark-mobile.png`.
 - Scholar Spark combined comparison evidence: `/tmp/scholar-spark-comparison.png`.
+- Focused click-state evidence: `/tmp/scholar-spark-paper-click.png`; a separate crop is unnecessary because the five-star burst and absence of any pointer-follow star are clearly legible at the 1200 × 800 capture size.
 - States: default homepage, portrait hover, section-heading hover, publication hover plus click burst, and touch/mobile.
 
 ## Normalization
@@ -42,7 +44,7 @@
 - Profile treatment: `profile-2.png` is shown in a bordered 3:4 frame with padding and a centered full-body crop.
 - Section-heading treatment: small Font Awesome motifs identify Research, Internship Experience, Education, and Honors and Awards. They respond subtly on hover without competing with the page title.
 - Scholar Spark interactions: the portrait tilts and lifts, section labels gain a restrained blue underline, and publication rows lift over a pale blue wash with a left accent, enlarged figure, and external-link cue.
-- Pointer treatment: a small Font Awesome star follows fine pointers while the native system cursor remains intact; pointer clicks emit a five-star radial burst. The effect is absent on coarse pointers and when reduced motion is requested.
+- Pointer treatment: the native system cursor remains unchanged; pointer clicks emit a five-star radial burst. The effect is absent on coarse pointers and when reduced motion is requested.
 - Responsive behavior: the 500 px layout preserves the two-column paper rhythm without horizontal overflow; narrower screens stack each figure above its citation.
 
 ## Findings
@@ -85,6 +87,10 @@
    - Finding: P2 — both details weakened the otherwise restrained blue academic visual language.
    - Fix: kept publication-title hover blue and held the five click stars visibly dispersed through 70% of the 620 ms burst animation.
    - Result: passed in the combined target/implementation comparison and Microsoft Edge interaction tests at 1200 × 800 and 500 × 1000.
+10. User feedback found that a star continuously following the pointer was more decoration than the page needed.
+   - Finding: P2 — the persistent follower competed with the restrained academic presentation.
+   - Fix: removed the pointer-follow element and its motion handlers while retaining the five-star click burst.
+   - Result: passed after Microsoft Edge confirmed zero persistent cursor stars before and after pointer movement, five transient stars on click, and no stars on a coarse-pointer mobile viewport.
 
 ## Interaction and implementation checks
 
@@ -94,8 +100,9 @@
 - The current rendered page references `/images/profile-2.png`; all four section-heading icons resolve through the bundled Font Awesome set.
 - Desktop navigation exposes all six section links; the mobile layout replaces horizontal overflow with a native disclosure menu.
 - An automated Microsoft Edge interaction check clicked the Research link twice and observed two calls to the page's scroll handler with the correct `#research` URL state.
-- A second Microsoft Edge interaction check exercised the actual pointer states: portrait transform `matrix(1.0196, 0.0284801, -0.0284801, 1.0196, 0, -4)`, fully expanded heading underline, publication background `rgb(244, 248, 251)`, visible external-link cue, one following cursor star, and five independently displaced click stars.
-- At the 500 px coarse-pointer viewport, no cursor or click stars were created and `scrollWidth` remained exactly 500 px.
+- A second Microsoft Edge interaction check exercised the actual pointer states: portrait transform `matrix(1.0196, 0.0284801, -0.0284801, 1.0196, 0, -4)`, fully expanded heading underline, publication background `rgb(244, 248, 251)`, visible external-link cue, and five independently displaced click stars.
+- The final correction check found `0` cursor-star elements after pointer movement and `0` persistent cursor-star elements during the click burst; the click itself still created exactly `5` transient stars.
+- At the 500 px coarse-pointer viewport, no click stars were created and `scrollWidth` remained exactly 500 px.
 - No browser console errors, failed network requests, or HTTP responses at or above 400 were observed during the interaction run.
 - Jekyll production build completed successfully.
 - Rendered HTML contains no News, Lab Homepage, Services, Friends, Main Collaborators, Code, PDF, Research Experience, Publications, or year-group headings.
@@ -111,6 +118,6 @@
 - [x] Compare reference and implementation at the same viewport.
 - [x] Verify the active responsive layout.
 - [x] Compare each selected interaction target and the matching rendered state in one visual input.
-- [x] Verify portrait, heading, publication, pointer-follow, click-burst, touch, and reduced-motion behavior.
+- [x] Verify portrait, heading, publication, click-burst, touch, and reduced-motion behavior.
 
 final result: passed

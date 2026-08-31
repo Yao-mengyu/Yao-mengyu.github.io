@@ -64,20 +64,6 @@
         });
 
         if (finePointer.matches && !reducedMotion.matches) {
-          var cursorStar = document.createElement('i');
-          cursorStar.className = 'fas fa-star cursor-star';
-          cursorStar.setAttribute('aria-hidden', 'true');
-          document.body.appendChild(cursorStar);
-
-          document.addEventListener('pointermove', function (event) {
-            cursorStar.style.transform = 'translate3d(' + (event.clientX + 11) + 'px, ' + (event.clientY + 10) + 'px, 0)';
-            cursorStar.classList.add('is-visible');
-          }, { passive: true });
-
-          document.documentElement.addEventListener('pointerleave', function () {
-            cursorStar.classList.remove('is-visible');
-          });
-
           document.addEventListener('pointerdown', function (event) {
             var starCount = 5;
 

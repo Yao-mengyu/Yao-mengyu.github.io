@@ -427,26 +427,12 @@
   transform: translateX(0);
 }
 
-.academic-home .cursor-star,
 .academic-home .click-star {
   position: fixed;
   z-index: 200;
   color: var(--academic-spark);
   pointer-events: none;
   will-change: transform, opacity;
-}
-
-.academic-home .cursor-star {
-  top: 0;
-  left: 0;
-  font-size: .52rem;
-  opacity: 0;
-  transform: translate3d(-20px, -20px, 0);
-  transition: opacity 100ms ease, transform 55ms linear;
-}
-
-.academic-home .cursor-star.is-visible {
-  opacity: .82;
 }
 
 .academic-home .click-star {
@@ -723,7 +709,6 @@
     transition-duration: .01ms !important;
   }
 
-  .academic-home .cursor-star,
   .academic-home .click-star {
     display: none !important;
   }
