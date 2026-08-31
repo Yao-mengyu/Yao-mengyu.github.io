@@ -25,7 +25,7 @@ redirect_from:
   </figure>
 </section>
 
-<h2 class="research-heading section-heading" id="research"><i class="fas fa-microscope section-heading__icon" aria-hidden="true"></i><span>Research <span class="research-heading__scholar">[<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</span></span></h2>
+<h2 class="research-heading section-heading" id="research"><i class="fas fa-microscope section-heading__icon" aria-hidden="true"></i><span class="section-heading__copy"><span class="section-heading__label">Research</span> <span class="research-heading__scholar">[<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>]</span></span></h2>
 
 <p class="research-intro">My research interests lie in <strong>security and privacy in AI systems</strong>, particularly retrieval-augmented generation, multimodal recommender systems, and AI agents.</p>
 
@@ -128,7 +128,7 @@ redirect_from:
   </div>
 </article>
 
-<h2 class="section-heading" id="internship-experience"><i class="fas fa-briefcase section-heading__icon" aria-hidden="true"></i><span>Internship Experience</span></h2>
+<h2 class="section-heading" id="internship-experience"><i class="fas fa-briefcase section-heading__icon" aria-hidden="true"></i><span class="section-heading__copy"><span class="section-heading__label">Internship Experience</span></span></h2>
 
 <div class="cv-entry">
   <div class="cv-entry__heading">
@@ -148,7 +148,7 @@ redirect_from:
   <p>Worked on model-cluster load optimization and the security of multimodal recommender systems. The latter resulted in the first-author paper <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-zero" target="_blank" rel="noopener noreferrer"><em>From Zero to Hero: Cross-modal-enhanced Adversarial Item Promotion Attack against Multimodal Recommender Systems</em></a> at USENIX Security 2026 (Long Presentation).</p>
 </div>
 
-<h2 class="section-heading" id="teaching-experience"><i class="fas fa-chalkboard-teacher section-heading__icon" aria-hidden="true"></i><span>Teaching Experience</span></h2>
+<h2 class="section-heading" id="teaching-experience"><i class="fas fa-chalkboard-teacher section-heading__icon" aria-hidden="true"></i><span class="section-heading__copy"><span class="section-heading__label">Teaching Experience</span></span></h2>
 
 <div class="cv-entry">
   <div class="cv-entry__heading">
@@ -164,7 +164,7 @@ redirect_from:
   </div>
 </div>
 
-<h2 class="section-heading" id="education"><i class="fas fa-graduation-cap section-heading__icon" aria-hidden="true"></i><span>Education</span></h2>
+<h2 class="section-heading" id="education"><i class="fas fa-graduation-cap section-heading__icon" aria-hidden="true"></i><span class="section-heading__copy"><span class="section-heading__label">Education</span></span></h2>
 
 <div class="cv-entry">
   <div class="cv-entry__heading">
@@ -184,7 +184,7 @@ redirect_from:
   <p>GPA: 4.643 / 5.0 (Top 1%)</p>
 </div>
 
-<h2 class="section-heading" id="honors-and-awards"><i class="fas fa-award section-heading__icon" aria-hidden="true"></i><span>Honors and Awards</span></h2>
+<h2 class="section-heading" id="honors-and-awards"><i class="fas fa-award section-heading__icon" aria-hidden="true"></i><span class="section-heading__copy"><span class="section-heading__label">Honors and Awards</span></span></h2>
 
 <ul class="honors-list">
   <li><span>Peking University Outstanding Scientific Research Award</span><time datetime="2024-12">Dec 2024</time></li>
