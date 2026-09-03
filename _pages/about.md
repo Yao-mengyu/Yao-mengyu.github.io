@@ -36,7 +36,7 @@ redirect_from:
   <div class="publication__body">
     <h3><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-dots" target="_blank" rel="noopener noreferrer">Connect the Dots: Knowledge Graph-Guided Crawler Attack on Retrieval-Augmented Generation Systems</a></h3>
     <p class="publication__authors"><strong>Mengyu Yao</strong>, Ziqi Zhang, Ning Luo, Shaofei Li, Yifeng Cai, Xiangqun Chen, Yao Guo, and Ding Li.</p>
-    <p class="publication__venue"><em>35th USENIX Security Symposium, 2026</em> <span class="publication__note">(Long Presentation)</span></p>
+    <p class="publication__venue"><em>35th USENIX Security Symposium, 2026</em></p>
   </div>
 </article>
 
@@ -47,7 +47,7 @@ redirect_from:
   <div class="publication__body">
     <h3><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-zero" target="_blank" rel="noopener noreferrer">From Zero to Hero: Cross-modal-enhanced Adversarial Item Promotion Attack against Multimodal Recommender Systems</a></h3>
     <p class="publication__authors"><strong>Mengyu Yao</strong>, Ziqi Zhang, Yifeng Cai, Junlin Liu, Xinyi Fu, Weiqiang Wang, Xiangqun Chen, Yao Guo, and Ding Li.</p>
-    <p class="publication__venue"><em>35th USENIX Security Symposium, 2026</em> <span class="publication__note">(Long Presentation)</span></p>
+    <p class="publication__venue"><em>35th USENIX Security Symposium, 2026</em></p>
   </div>
 </article>
 
@@ -74,11 +74,11 @@ redirect_from:
 </article>
 
 <article class="publication">
-  <a class="publication__media" href="https://doi.org/10.1145/3735452.3735530" target="_blank" rel="noopener noreferrer" aria-label="Open GroupTuner paper">
-    <img src="{{ '/paper_figs/grouptuner.png' | relative_url }}" width="1060" height="382" loading="lazy" alt="GroupTuner option grouping and group-aware iterative search workflow">
+  <a class="publication__media" href="https://doi.org/10.1145/3735452.3735530" target="_blank" rel="noopener noreferrer" aria-label="Open Grouptuner paper">
+    <img src="{{ '/paper_figs/grouptuner.png' | relative_url }}" width="1060" height="382" loading="lazy" alt="Grouptuner option grouping and group-aware iterative search workflow">
   </a>
   <div class="publication__body">
-    <h3><a href="https://doi.org/10.1145/3735452.3735530" target="_blank" rel="noopener noreferrer">GroupTuner: Efficient Group-Aware Compiler Auto-tuning</a></h3>
+    <h3><a href="https://doi.org/10.1145/3735452.3735530" target="_blank" rel="noopener noreferrer">Grouptuner: Efficient Group-Aware Compiler Auto-tuning</a></h3>
     <p class="publication__authors">Bingyu Gao, <strong>Mengyu Yao</strong>, Ziming Wang, Dong Liu, Ding Li, Xiangqun Chen, and Yao Guo.</p>
     <p class="publication__venue"><em>ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES), 2025</em></p>
   </div>
@@ -145,7 +145,7 @@ redirect_from:
     <span class="cv-entry__date">Aug 2024 – Jan 2025</span>
   </div>
   <p class="cv-entry__role">Research Intern</p>
-  <p>Worked on model-cluster load optimization and the security of multimodal recommender systems. The latter resulted in the first-author paper <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-zero" target="_blank" rel="noopener noreferrer"><em>From Zero to Hero: Cross-modal-enhanced Adversarial Item Promotion Attack against Multimodal Recommender Systems</em></a> at USENIX Security 2026 (Long Presentation).</p>
+  <p>Worked on model-cluster load optimization and the security of multimodal recommender systems.</p>
 </div>
 
 <h2 class="section-heading" id="teaching-experience"><i class="fas fa-chalkboard-teacher section-heading__icon" aria-hidden="true"></i><span class="section-heading__copy"><span class="section-heading__label">Teaching Experience</span></span></h2>
