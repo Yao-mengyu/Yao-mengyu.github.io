@@ -12,7 +12,7 @@ redirect_from:
 <section class="academic-intro" id="about-me" aria-labelledby="profile-name">
   <div class="academic-intro__copy">
     <h1 id="profile-name">Mengyu Yao</h1>
-    <p>I am a Ph.D. student in Computer Science at <strong>Peking University</strong>, advised by Prof. Yao Guo. Since October 1, 2026, I have been a visiting Ph.D. student at the <strong>University of Illinois Urbana-Champaign (UIUC)</strong>. I am a member of the <a href="https://cs.pku.edu.cn/info/1166/1849.htm" target="_blank" rel="noopener noreferrer"><strong>Key Laboratory of High Confidence Software Technologies, Ministry of Education</strong></a> and expect to graduate in 2028.</p>
+    <p>I am a Ph.D. student in Computer Science at <strong>Peking University</strong>, advised by Prof. Yao Guo. I am a member of the <a href="https://cs.pku.edu.cn/info/1166/1849.htm" target="_blank" rel="noopener noreferrer"><strong>Key Laboratory of High Confidence Software Technologies, Ministry of Education</strong></a> and expect to graduate in 2028.</p>
     <p>Before joining PKU, I received my B.S. in Computer Science and Technology from <strong>Nanjing University</strong> in 2023.</p>
     <nav class="academic-intro__links" aria-label="Contact and academic profiles">
       <a href="mailto:{{ site.author.email }}">Email</a><span aria-hidden="true">|</span>
@@ -165,14 +165,6 @@ redirect_from:
 </div>
 
 <h2 class="section-heading" id="education"><i class="fas fa-graduation-cap section-heading__icon" aria-hidden="true"></i><span class="section-heading__copy"><span class="section-heading__label">Education</span></span></h2>
-
-<div class="cv-entry">
-  <div class="cv-entry__heading">
-    <div><strong>University of Illinois Urbana-Champaign (UIUC)</strong></div>
-    <span class="cv-entry__date">Oct 1, 2026 – Present</span>
-  </div>
-  <p class="cv-entry__role">Visiting Ph.D. Student</p>
-</div>
 
 <div class="cv-entry">
   <div class="cv-entry__heading">
