@@ -30,6 +30,17 @@ redirect_from:
 <p class="research-intro">My research interests lie in <strong>security and privacy in AI systems</strong>, particularly retrieval-augmented generation, multimodal recommender systems, and AI agents.</p>
 
 <article class="publication">
+  <a class="publication__media" href="https://arxiv.org/abs/2610.17431" target="_blank" rel="noopener noreferrer" aria-label="Open VeriRouter paper">
+    <img src="{{ '/paper_figs/verirouter.png' | relative_url }}" width="962" height="480" loading="lazy" alt="LLM routing workflow showing model selection, request rewriting, response relay, and their integrity risks">
+  </a>
+  <div class="publication__body">
+    <h3><a href="https://arxiv.org/abs/2610.17431" target="_blank" rel="noopener noreferrer">VeriRouter: Towards Verifiable LLM Routing</a></h3>
+    <p class="publication__authors"><strong>Mengyu Yao</strong>, Ziqi Zhang, Shaofei Li, Yifeng Cai, Ding Li, Yao Guo, and Ning Luo.</p>
+    <p class="publication__venue"><em>arXiv preprint, 2026</em></p>
+  </div>
+</article>
+
+<article class="publication">
   <a class="publication__media" href="https://www.usenix.org/conference/usenixsecurity26/presentation/yao-dots" target="_blank" rel="noopener noreferrer" aria-label="Open Connect the Dots paper">
     <img src="{{ '/paper_figs/ragcrawler.png' | relative_url }}" width="528" height="438" loading="lazy" alt="RAGCrawler framework for knowledge-graph-guided query generation">
   </a>
@@ -156,6 +167,15 @@ redirect_from:
 </div>
 
 <h2 class="section-heading" id="education"><i class="fas fa-graduation-cap section-heading__icon" aria-hidden="true"></i><span class="section-heading__copy"><span class="section-heading__label">Education</span></span></h2>
+
+<div class="cv-entry">
+  <div class="cv-entry__heading">
+    <div><strong>University of Illinois Urbana-Champaign (UIUC)</strong></div>
+    <span class="cv-entry__date">Oct 2026 – Present</span>
+  </div>
+  <p class="cv-entry__role">Visiting Ph.D. Student</p>
+  <p>Expected completion: Jan 2027</p>
+</div>
 
 <div class="cv-entry">
   <div class="cv-entry__heading">

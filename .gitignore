@@ -3,7 +3,13 @@
 /.jekyll-cache/
 /.sass-cache/
 /vendor/
-/cv.tex
 push.sh
 .DS_Store
 images/profile.png
+
+# Local CV/publication documents and build artifacts
+/cv.tex
+/cv.log
+/publication.*
+/mengyu_publication.pdf
+/resume.cls
